@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #F8FAFC;
+    color: #0F172A;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.15s ease, color 0.15s ease;
+  }
+
+  html.dark body {
+    background-color: #0B1120;
+    color: #F1F5F9;
+  }
+
+  code, pre, .font-mono {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Comprehensive Dark Mode Surface & Contrast System (Emerald Primary Theme) */
+html.dark .bg-slate-50 {
+  background-color: #0B1120 !important;
+}
+
+html.dark .bg-slate-50\/70,
+html.dark .bg-slate-50\/80,
+html.dark .bg-slate-50\/60 {
+  background-color: rgba(15, 23, 42, 0.78) !important;
+}
+
+html.dark .bg-white {
+  background-color: #111827 !important;
+}
+
+html.dark .bg-slate-100,
+html.dark .bg-slate-100\/95 {
+  background-color: #1E293B !important;
+}
+
+html.dark .bg-slate-200\/70 {
+  background-color: #334155 !important;
+}
+
+html.dark .bg-emerald-50,
+html.dark .bg-emerald-50\/40,
+html.dark .bg-emerald-50\/50,
+html.dark .bg-emerald-50\/60,
+html.dark .bg-emerald-50\/80,
+html.dark .bg-emerald-50\/90 {
+  background-color: rgba(16, 185, 129, 0.16) !important;
+}
+
+html.dark .bg-red-50 {
+  background-color: rgba(220, 38, 38, 0.16) !important;
+}
+
+html.dark .border-slate-100 {
+  border-color: #1E293B !important;
+}
+
+html.dark .border-slate-200,
+html.dark .border-slate-200\/70,
+html.dark .border-slate-200\/80 {
+  border-color: #26334D !important;
+}
+
+html.dark .border-slate-300 {
+  border-color: #334155 !important;
+}
+
+html.dark .border-emerald-200,
+html.dark .border-emerald-200\/80 {
+  border-color: rgba(16, 185, 129, 0.4) !important;
+}
+
+html.dark .border-red-200 {
+  border-color: rgba(239, 68, 68, 0.35) !important;
+}
+
+html.dark .divide-slate-200 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #26334D !important;
+}
+
+html.dark .text-slate-900,
+html.dark .text-emerald-950 {
+  color: #F8FAFC !important;
+}
+
+html.dark .text-slate-800 {
+  color: #E2E8F0 !important;
+}
+
+html.dark .text-slate-700 {
+  color: #CBD5E1 !important;
+}
+
+html.dark .text-slate-600 {
+  color: #94A3B8 !important;
+}
+
+html.dark .text-slate-500 {
+  color: #64748B !important;
+}
+
+html.dark .text-emerald-700,
+html.dark .text-emerald-600,
+html.dark .text-emerald-800 {
+  color: #34D399 !important;
+}
+
+html.dark .text-red-700,
+html.dark .text-red-800,
+html.dark .text-red-900 {
+  color: #FCA5A5 !important;
+}
+
+html.dark input,
+html.dark textarea,
+html.dark select {
+  background-color: #0F172A !important;
+  color: #F8FAFC !important;
+  border-color: #334155 !important;
+}
+
+html.dark input::placeholder,
+html.dark textarea::placeholder {
+  color: #64748B !important;
+}

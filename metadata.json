@@ -1,0 +1,6 @@
+{
+  "name": "Luồng Công Việc & Quy Trình Tình Huống",
+  "description": "Ứng dụng quản lý quy trình công việc theo từng bước có điều kiện tiên quyết và rẽ nhánh hướng giải quyết linh hoạt cho từng tình huống cụ thể.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
